@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+			 font-family: 'Roboto', sans-serif;
+
+}
+/*common color*/
+.bg_common{
+	background-color: rgba(255,255,255, 0.7);
+}
+
+.bg-common2{
+	background-color: rgba(15, 29, 32, 0.76);
+}
+
+.h2-comm{
+	text-transform: uppercase;
+}
+section{
+	overflow: hidden;
+}
+.container{
+	overflow: hidden;
+}
+/*common color*/
+.title-s{
+	background-color: rgba(15, 29, 32, 0.76);
+	color: white;
+}
+.title-s h2{
+	font-size: 40px;
+
+}
+
+/*Nav Strat*/
+
+.nav-item .nav-link{
+	 border-top:1px solid transparent;
+	 transition: .4s ease;
+}.nav-item .nav-link:hover{
+	 border-top:1px solid black;
+}
+
+
+.tm-nav-link-highlight{
+ transition: .2s ease;
+  width: 16px;
+  height: 16px;
+  background-color: green;
+  position: absolute;
+  border-radius: 50%;
+  top: -8px;
+  left: calc(50% - -2px);
+visibility: hidden;
+}
+
+
+.nav-item:hover .tm-nav-link-highlight{
+	 width: 16px;
+  height: 16px;
+  background-color: green;
+  position: absolute;
+  border-radius: 50%;
+  top: -8px;
+  left: calc(50% - -2px);
+ 
+  visibility: visible;
+}
+
+/*New Items*/
+
+
+
+
+.nav-item{
+	position: relative;
+}
+
+.nav-link{
+	margin: 0px 25px;
+	text-transform: uppercase;
+	
+
+	/*transition: .5s ease;*/
+}
+
+.nav-link:last-child{
+	margin-right: 0px;
+}
+
+.nav-link:last-child{
+	padding-right: 0px;
+}
+
+.nav-link:hover{
+	color: black !important;
+	/*transform: scale(1.1);*/
+}
+
+/*End nav*/
+
+
+/*mobile Strat*/
+hr{
+	border: none;
+	border-bottom: 2px solid white;
+}
+a.mbt-btn {
+    text-decoration: none;
+    color: white;
+    background: gray;
+    padding: 14px 18px;
+    font-size: 20px;
+    transition: .5s ease;
+}
+a.mbt-btn:hover{
+	background: white;
+	color: gray;
+}
+.h1-comm{
+	font-size: 45px;
+	letter-spacing: 1.1px;
+	line-height: 55px;
+}
+/*mobile End*/
+/*Servive Strat*/
+.service{
+	padding: 50px 0px;
+}
+
+.fx-c{
+	border-radius: 50%;
+	border: 1px solid #222 !important;
+}
+.sing-s{
+	border-radius: 3%;
+}
+/*Servive End*/
+
+
+/*typing end*/
+/*contact strat*/
+.form-group input{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	border-radius:0;
+}
+.form-group textarea{
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	border-radius:0;
+
+}
+.form-group textarea:focus{
+	background-color: transparent;
+	
+	
+}
+.form-group input:focus{
+	outline: none;
+	background-color: transparent;
+}
+
+/*contact End*/
+
+
+
+
+/*About Strat*/
+.about{
+	padding: 50px 0px;
+}
+/*About End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+	padding: 30px 0px;
+	background-color: rgba(15, 29, 32, 0.76);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+		 .h2-comm{
+		 	font-size: 25px;
+		 }
+		 .h1-comm{
+		 	font-size: 26px;
+		 }
+
+		 .title-s h2{
+		 	font-size: 28px;
+		 }
+}
+
+@media (max-width: 767.98px) {}
+
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
